@@ -31,6 +31,7 @@ for (let i = 0; i < text.length; i++) {
   switch (text[i]) {
     case "a":
       countA += 1
+      // ou ++countA revient au même que countA+=
       break
     case "à":
       countA += 1
